@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+  background-color: #f0f2f5;
+  font-size: 30px;
+}
+
+.content {
+  width: 400px;
+  height: 1000px;
+  position: relative;
+}
+.h1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 1000px;
+
+}
+.h {
+  font-size: 120px;
+  margin-bottom: 10px;
+  color: #1877f2;
+}
+.pr {
+  font-size: 60px;
+}
+.main {
+  position: absolute;
+  background-color: #ffff;
+  width: 840px;
+  height: 840px;
+  left: 20%;
+  top: 50%;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 9px rgb(184, 184, 184),
+  -1px -1px 5px rgb(184, 184, 184);
+}
+.txt {
+  margin: 20px;
+  margin-top: 40px;
+  padding: 40px;
+  width: 85%;
+  background-color: #ffff;
+  outline: none;
+  border: 2px solid rgb(184, 184, 184);
+  border-radius: 10px;
+  font-size: 30px;
+
+}
+.txt:focus {
+  border: 2px solid #1877f2;
+  box-shadow: 1px 1px 1px #1877f2,
+  -1px -1px 1px #1877f2;
+}
+.login-btn {
+
+  margin: 20px;
+  padding: 30px;
+  width: 95%;
+  border-radius: 10px;
+  background-color: #1877f2;
+  color: #ffff;
+  font-size: 40px;
+  border: none;
+  font-weight: bolder;
+}
+.a-link {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 100px;
+  border-bottom: 2px solid rgb(184, 184, 184);
+  margin: 40px;
+  background: none;
+}
+.link {
+  background: none;
+  text-decoration: none;
+  color: #1877f2;
+}
+.ca {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 190px;
+  width: 50%;
+
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #42b72a;
+  border-radius: 10px;
+}
+.pca {
+  text-decoration: none;
+  background: none;
+  color: #ffff;
+  font-weight: bolder;
+  font-size: 24px;
+
+}

